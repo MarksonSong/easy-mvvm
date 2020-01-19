@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MueTest</title>
+</head>
+
+<body>
+    <div id="app">
+        <div>{{msg}}</div>
+        <div>{{obj.value}}</div>
+        <div>{{obj.name}}---{{obj.value}}</div>
+
+        <div v-text='msg'></div>
+        <div v-text='obj.name'></div>
+
+        <div v-html='msg'></div>
+        <div v-html='msg2'></div>
+        <div v-html='obj.value'></div>
+
+        <input v-model='msg2' type="text" />
+        <input v-model='obj.name' type="text" />
+
+        <button v-on:click='testFn1'>testFn1</button>
+        <button @click='testFn2'>testFn2</button>
+    </div>
+
+    <script type="module" src="./mue.js"></script>
+</body>
+
+</html>
