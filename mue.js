@@ -60,6 +60,7 @@ const app = new Mue({
         }
     }
 })
+console.log(app)
 
 // 使控制台能通过vm访问Mue实例
 window.vm = app
