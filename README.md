@@ -1,7 +1,7 @@
 # easy-mvvm
 基于发布者-订阅者模式和数据劫持，实现 MVVM 框架
 ## 1. 为啥需要 MVVM ?
-传统的 MVC: 
+传统的 MVC : 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020022813061130.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01hcmtzb25fMQ==,size_16,color_FFFFFF,t_70)
 
 jQuery 操作 DOM 时, 要求前端同时兼顾页面的渲染和数据的处理逻辑。
@@ -22,4 +22,4 @@ Vue 基于发布者-订阅者模式和数据劫持实现绑定 view 和 model。
 把握两条主线 : 构建响应式系统 + 解析渲染模板。
 
 Period...
-感谢分享：[DMQ](https://github.com/DMQ/mvvm) , [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1022910821149312/1108898947791072)
+参考资料：[DMQ](https://github.com/DMQ/mvvm) , [廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1022910821149312/1108898947791072)
